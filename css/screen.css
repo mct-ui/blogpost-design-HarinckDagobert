@@ -27,6 +27,7 @@ html {
   padding: 48px 24px 24px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
 }
 
 body {
@@ -242,6 +243,10 @@ a:focus {
 
 .c-article__body {
   padding: 0 24px;
+}
+.c-article__date {
+  padding: 0 24px;
+  font-size: 14px;
 }
 
 @media (min-width: 768px) {
